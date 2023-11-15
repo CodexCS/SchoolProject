@@ -12,6 +12,7 @@ public class coinflipsimulator
         int i = 1;
         int h1 = 0;
         int t1 = 0;
+        // This is experimental 
         for(i=1;i<=20;i++)
             {
             double x = Math.random() * 20;
