@@ -5,6 +5,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
+// 1/2 - 2/3 + 3/4 - 4/5 ..............n
 public class series extends VakuesandDatatype
 {
     public static void main()
