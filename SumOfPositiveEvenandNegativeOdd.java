@@ -6,7 +6,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class SumOfPositiveEvenandNegaticeOdd
+public class SumOfPositiveEvenandNegativeOdd
 {
     public static void main(){
         System.out.println("How many number do you want to give");
