@@ -20,13 +20,13 @@ public class CelsiusFahrenheit
             case 'f':
                 System.out.println("Enter the temperature");
                 ce  = sc.nextDouble();
-                res = 5/9*(f-32);
+                res = (double)5/9*(f-32);
                 System.out.println("Temperature in Celsius is "+ res +"°C");
                 break;
             case 'c':
                 System.out.println("Enter the temperature");
                 f  = sc.nextDouble();
-                res = 1.8*(ce+32);
+                res = (double)1.8*(ce+32);
                 System.out.println("Temperature in Fahrenheit is "+ res +"°F");
                 break;
                 
