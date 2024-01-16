@@ -24,7 +24,7 @@ public class nievendowhile
         
         while(i>0);
         
-        if(i2%s==0){
+        if(i%s==0){
             System.out.println("This Harshad Number");
         }
         else 
