@@ -1,4 +1,4 @@
-import java.util.*;
+eeimport java.util.*;
 /**
  * Write a description of class primenum here.
  *
