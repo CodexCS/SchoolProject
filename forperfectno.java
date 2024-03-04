@@ -17,7 +17,7 @@ public class forperfectno
             {
             if(number%i==0)
             {
-              System.out.println(i + " ");  
+              System.out.println(i + " ");  // This is extra
               sum = sum + i;
             }
         
