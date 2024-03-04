@@ -9,9 +9,6 @@ public class forperfectno
 {
     public static void main()
     {
-        
-        
-        
         Scanner sc = new Scanner(System.in);
         int i = 0;
         int number = sc.nextInt();
@@ -24,10 +21,7 @@ public class forperfectno
               sum = sum + i;
             }
         
-        
-        
-        
-        }
+            }
         System.out.println(sum);
         if(sum==number)
                 {
