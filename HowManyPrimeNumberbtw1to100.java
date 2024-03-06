@@ -9,10 +9,8 @@ public class HowManyPrimeNumberbtw1to100
 {
     public static void main(){
         int i = 0;
-        int m = 1;
         int sum = 0;
         int g = 2;
-        int c = 0;
         int d = 0;
         for( g = 2; g<=100;g++){
                     sum = 0;
