@@ -19,7 +19,7 @@ public class merging_two_array {
         for(int i = 0; i < b;i++){
             arr2[i] = sc.nextInt();
         }
-
+        
         for(int i = 0; i < a; i++){
             arr3[i] = arr1[i];
         }
