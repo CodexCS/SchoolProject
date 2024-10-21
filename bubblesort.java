@@ -13,8 +13,8 @@ public class bubblesort {
             array[i] = scanner.nextInt();
         }
         int m = array.length;
-        for ( i = 0; i < n - 1; i++) {
-            for ( j = 0; j < n  - 1; j++) {
+        for ( i = 0; i < 9; i++) {
+            for ( j = 0; j < 9; j++) {
                 if (array[j] > array[j+1]) {
                     // Swap elements
                     temp = array[j];
