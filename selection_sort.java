@@ -11,7 +11,7 @@ public class selection_sort {
 
         for (int i = 0; i < 9; i++) {
             int min = i;
-            for (int j = 1; j < 10; j++) {
+            for (int j = i+ 1; j < 10; j++) {
                 if (number[j] < number[min])
                     min = j;
             }
