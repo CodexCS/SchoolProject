@@ -1,36 +1,41 @@
-import java.util.*;
-
+import java.util.Scanner;
 
 /**
- * Write a description of class number here.
+ * Write a description of class Q7_2022 here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
 public class number
 {
+    void Number(int num,int d){
+        int digit = 0;
+        int c = 0;
+        while(num>0){
+            digit = num%10;
+            if(d==digit){
+                c++;
+            }
+            num = num/10;
+        }
+        System.out.println(c);
+    }
+    void Number(int n1){
+        int digit = 0;
+        int sum = 0;
+        while(n1>0){
+            digit = n1%10;
+            if(digit%2==0){
+                sum = sum + digit;
+            }
+            n1 = n1/10;
+        }
+        System.out.println("Sum of even digits"+ sum);
+        
+    }
     public static void main(){
-        Scanner sc  = new Scanner(System.in);
-        int a = sc.nextInt();
-        int n = 0;
-        int s = 0;
-        int i = 0;
-        int g = a;
-        for(  ;a>0;){
-             i = i + 1;
-            n = a%10;
-            a = a/10;
-        }
-        for(;g>0;){
-            n = g%10;
-            //System.out.println(n);
-            s =   (int) Math.pow(n,i) + s;
-            g = g/10;
-        }
-        System.out.println("The sum of number is " + s);
+        number ob = new number();
+        ob.Number(2246);
         
-        
-        
-    
     }
 }
