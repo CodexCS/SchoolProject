@@ -14,7 +14,7 @@ public class bubblesort {
         }
         int m = array.length;
         for ( i = 0; i < 9; i++) {
-            for ( j = 0; j < (9-i); j++) {
+            for ( j = 0; j < 9; j++) {
                 if (array[j] > array[j+1]) {
                     // Swap elements
                     temp = array[j];
